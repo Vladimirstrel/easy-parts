@@ -204,3 +204,167 @@ body {
 	padding: 0px 0px;
     margin: 10px 10px;
 }
+.product p {
+	text-align: left;
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
+	margin: 10px;
+}
+.row {
+	display: flex;
+}
+.colun {
+	width: 360px;
+    height: 661px;
+}
+.accessories {
+	display: flex;
+	background: rgba(45, 121, 121, 0.05);
+	border-radius: 10px;
+	margin: 0px 15px 10px;
+}
+.accessories h4 {
+	font-size: 18px;
+	font-weight: 700;
+	text-align: left;
+    margin: 30px 0px 5px 29px;
+}
+.accessories p {
+	font-size: 14px;
+    font-weight: 400;
+    color: #867777;
+    margin: 0px 0px 15px 29px;
+    text-align: left;
+
+}
+.accessories-list {
+	padding-left: 29px;
+}
+	
+.accessories-list li {
+	list-style: none;
+	font-size: 16px;
+	display: block;
+	font-weight: 500;
+	color: #18A7A7;
+	border: 1px solid #18A7A7;
+	padding: 10px 30px;
+	border-radius: 5px;
+	width: 23px;
+	margin-top: 5px;
+}
+.accessories-search {
+	height: 282px;
+	background: #18A7A7;
+}
+.accessories-search h4 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 23px;
+}
+.accessories-search {
+	position: relative;
+    display: inline-block;
+    width: 360px;
+    height: 282px;
+}
+.accessories-search::after {
+	content: "";
+    position: absolute;
+    width: 389px;
+    height: 192px;
+    background-image: url(../img/line.svg);
+    background-size: cover;
+    display: block;
+    z-index: 99;
+    right: -44px;
+    bottom: -90px;
+}
+.accessories-search .form-control {
+   width: 300px;
+    height: 50px;
+    border: none;
+}
+
+.accessories-akb {
+    width: 360px;
+}
+
+.accessories-akb p span {
+	display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    width: 78px;
+    color: #18A7A7;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px 30px;
+}	
+.piston {
+    position: absolute;
+    right: 30px;
+
+}
+
+.footer-top {
+	position: relative;
+    background-color: #F7EEEC;
+}
+.wheel {
+	position: absolute;
+    top: -55px;
+    left: 42px;
+}
+
+.sell-text {
+	text-align: center;
+	padding-top: 10px;
+}
+.sell-text h1 {
+	font-size: 50px;
+	font-weight: 700;
+	color: #18A7A7;
+}
+.sell-text a {
+	text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: #18A7A7;
+    padding: 12px 118px 13px;
+    margin-bottom: 45px;
+
+}
+.transmission {
+	position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.banner-img {
+	width: 100%;
+}
+.footer-holder {
+	width: 100%;
+	background: #F7EEEC;
+}
+.container-footer {
+	width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer-info {
+	list-style: none;
+}
+.social-footer {
+	list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
